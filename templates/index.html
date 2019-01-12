@@ -1,0 +1,595 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/public.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <script src="{% static 'js/jquery-1.12.0.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'js/public.js' %}"></script>
+    <script src="{% static 'js/info1.js' %}"></script>
+    <script src="{% static 'js/swiper.min.js' %}"></script>
+{#     <script src="{% static 'js/index.js' %}"></script>#}
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <div class="Back">
+        <p>关闭</p>按
+        <strong>Ctrl+D</strong>，将
+        <em>步淘网</em>加入收藏夹或者
+        <a href="#" id="btn_bc">下载快捷方式到桌面</a>
+        <span>不再提醒</span>
+    </div>
+</div>
+
+
+<!--头部-->
+<div class="header">
+    <div class="Back">
+        <ul>
+            <li><a href="#" class="collect">收藏步淘</a></li>
+            <li class="line">线</li>
+            <li>您好！欢迎来到步淘生活商城！</li>
+            <li><a href="../templates/Login.html" target="_blank">请登录</a></li>
+            <li class="line">线</li>
+            <li><a href="../templates/register.html" target="_blank">注册有礼</a></li>
+            <li class="line">线</li>
+            <li>
+                <dl>
+                    <dt>
+                        <a href="#">快捷登录</a>
+                        <b></b>
+                    </dt>
+                </dl>
+            </li>
+        </ul>
+        <ul>
+            <li>400-680-2212</li>
+            <li class="line">线</li>
+            <li><a href="../templates/shopcar.html">购物车：<span>0</span>件商品</a></li>
+            <li>我的步淘</li>
+            <li class="line">线</li>
+            <li>关注我们</li>
+        </ul>
+    </div>
+</div>
+
+
+<!--logo-->
+<div class="logo">
+    <div class="Back">
+        <a href="#" title="步淘商城" class="shopLogo">步淘商城</a>
+        <div class="logoCenter">
+            <div class="shopSearch">
+                <span></span>
+                <input type="text" placeholder="关键字">
+                <input type="button">
+            </div>
+            <div  class="searchList">
+                <a href="#">森马</a>
+                <a href="#">巴拉巴拉</a>
+                <a href="#">迪士尼</a>
+                <a href="#">外套</a>
+                <a href="#">针织衫</a>
+                <a href="#">羽绒服</a>
+                <a href="#">牛仔裤</a>
+                <a href="#">女鞋</a>
+                <a href="#">男鞋</a>
+            </div>
+        </div>
+
+        <div class="logoRight">
+            <a href="#" title="质量保证" class="safe">质量保证</a>
+            <a href="#" title="手机端" class="phone">手机端</a>
+        </div>
+
+    </div>
+</div>
+
+
+<!--商品导航-->
+<div class="shopNav">
+    <div class="Back">
+        <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="#">品牌大卖</a></li>
+            <li><a href="#">女装折扣</a></li>
+            <li><a href="#">品牌男装</a></li>
+            <li>
+                <a href="#">积分抽奖</a>
+                <i class="iphone"></i>
+            </li>
+            <li>
+                <a href="#">特价商品</a>
+                <i class="hot"></i>
+            </li>
+            <li><a href="#">签到换礼</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--banner-->
+  <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {% for foo in lunbo %}
+                <div class="swiper-slide"><img width="1024px" height="500px" src="{% static foo.img %}" alt=""></div>
+            {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+
+    <div class="integra">
+        <p>连续签到：0天</p>
+        <p>今天签到可赚：<span>10</span> 积分</p>
+        <p>连续签到每天可赚：<span>20</span> 积分</p>
+        <p class="p1">80积分兑换1RMB</p>
+        <p class="p1">参与抽奖可获ipad air &gt;&gt;</p>
+        <p class="p1">新手任务轻松赚取积分 &gt;&gt;</p>
+    </div>
+</div>
+
+
+<!--内容部分-->
+<div class="contenter">
+    <div class="contentOne">
+        <div class="title">
+            <div class="hot">
+                <a href="#">热卖商品</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><span style="font-weight:bold;color:red">服装配饰</span></a>
+                    </li>
+                    <li><a href="#"><span style="font-weight:bold;color:red">箱包鞋靴</span></a>
+                    </li>
+                    <li><a href="#">化妆护理</a>
+                    </li>
+                    <li><a href="#"><span style="font-weight:bold;color:red">母婴玩具</span></a>
+                    </li>
+                    <li><a href="#">食品保健</a>
+                    </li>
+                    <li><a href="#"><span style="font-weight:bold;color:red">家居百货</span></a>
+                    </li>
+                    <li><a href="#">运动户外</a>
+                    </li>
+                    <li><a href="#">其它</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="more" style="display:none">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="content">
+            <ul>
+                <li><img src="{% static 'images/1.jpg' %}"></li>
+                <li><img src="{% static 'images/4.jpg' %}"></li>
+                <li><img src="{% static 'images/14639688288131.jpg' %}"></li>
+                <li><img src="{% static 'images/14713267664893.jpg' %}"></li>
+                <li><img src="{% static 'images/139925612371402.jpg' %}"></li>
+                <li><img src="{% static 'images/14722705459123.jpg' %}"></li>
+                <li><img src="{% static 'images/14725234379716.jpg' %}">/li>
+                <li><img src="{% static 'images/14728883753287.jpg' %}"></li>
+                <li><img src="{% static 'images/14736504415908.jpg' %}"></li>
+                <li><img src="{% static 'images/14637261056813.jpg' %}"></li>
+{#                <li><img src="{% static 'images/14645986319640.jpg' %}"></li>#}
+{#                <li><img src="{% static 'images/14646647958718.jpg' %}"></li>#}
+            </ul>
+        </div>
+    </div>
+    <div class="contentTwo">
+        <div class="title">
+            <div class="hot">
+                <a href="#">热卖女装</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">连衣裙</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">牛仔裤</a></li>
+                    <li><a href="#">裤子</a></li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="tcon">
+            <div class="tcon_left">
+                <a href="#"><img src="/static/images/index_49.jpg" alt=""></a>
+            </div>
+            <div class="tcon_right">
+
+            </div>
+        </div>
+        <div class="content">
+            <ul>
+                <li><img src="{% static "images/14638978957063.jpg" %}"></li>
+                <li><img src="{% static "images/14645986319640.jpg" %}"></li>
+                <li style="margin: 0"><img src="{% static "images/14645990914134.jpg" %}"></li>
+                <li><img src="/static/images/14727940192727.jpg"></li>
+                <li><img src="/static/images/14728900972770.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/14735863588420.jpg"></li>
+                <li><img src="/static/images/14736504415908.jpg"></li>
+                <li><img src="/static/images/14738180952666.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/u1.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentThree">
+        <div class="title">
+            <div class="hot">
+                <a href="#">热卖男装</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">牛仔裤</a></li>
+                    <li><a href="#">休闲裤</a></li>
+                    <li><a href="#">衬衫</a></li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="tcon">
+            <div class="tcon_left">
+                <a href="#"><img src="/static/images/ntu.jpg" alt=""></a>
+            </div>
+            <div class="tcon_right">
+
+            </div>
+        </div>
+        <div class="content">
+            <ul>
+                <li><img src="/static/images/2.jpg"></li>
+                <li><img src="/static/images/2.png"></li>
+                <li style="margin: 0"><img src="/static/images/3.jpg"></li>
+                <li><img src="/static/images/4.jpg"></li>
+                <li><img src="/static/images/12s.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/14637247811269.jpg"></li>
+                <li><img src="/static/images/14637261056813.jpg"></li>
+                <li><img src="/static/images/14646647958718.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/14691690608051.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentFour">
+        <div class="title">
+            <div class="hot">
+                <a href="#">精品鞋包</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">流行男鞋</a></li>
+                    <li><a href="#">时尚女鞋</a></li>
+                    <li><a href="#">雪地鞋</a></li>
+                    <li><a href="#">潮流女包</a></li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="tcon">
+            <div class="tcon_left">
+                <a href="#"><img src="/static/images/xie.jpg" alt=""></a>
+            </div>
+            <div class="tcon_right">
+
+            </div>
+        </div>
+        <div class="content">
+            <ul>
+                <li><img src="/static/images/14713267664893.jpg"></li>
+                <li><img src="/static/images/14713276332237.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/14713284542803.jpg"></li>
+                <li><img src="/static/images/14722705459123.jpg"></li>
+                <li><img src="/static/images/14725234379716.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/139925612371402.jpg"></li>
+                <li><img src="/static/images/139925817021892.jpg"></li>
+                <li><img src="/static/images/139925843931077.jpg"></li>
+                <li style="margin: 0"><img src="/static/images/139925847448402.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentFive">Title
+        <div class="title">
+            <div class="hot">
+                <a href="#">家居家纺</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#" style="font-weight:bold;color:red">精品家纺</a></li>
+                    <li><a href="#">居家日用</a></li>
+                    <li><a href="#">家居饰品</a></li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="tcon">
+            <div class="tcon_left">
+                <a href="#"><img sTitlerc="/static/images/jiafang.jpg" alt=""></a>
+            </div>
+            <div class="tcon_right">
+
+            </div>
+        </div>
+    </div>
+    <div class="contentSix">
+        <div class="title">
+            <div class="hot">
+                <a href="#">美食特产</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#" style="font-weight:bold;color:red">休闲零食</a></li>
+                    <li><a href="#">鲜活肉类</a></li>
+                    <li><a href="#">特产</a></li>
+                </ul>
+            </div>
+            <div class="more">
+                <a href="#">查看更多热卖产品&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="tcon">
+            <div class="tcon_left">
+                <a href="#"><img src="/static/images/meishi.jpg" alt=""></a>
+            </div>
+            <div class="tcon_right">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--底部-->
+<div class="footer">
+    <div class="footerTop">
+        <p>商品分类</p>
+    </div>
+    <ul>
+        <li>
+            <p>服装配饰</p>
+            <img src="/static/images/12s.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">精品男装</a>
+                <a href="#">品牌女装</a>
+                <a href="#">精致内衣</a>
+                <a href="#">服装配饰</a>
+            </div>
+        </li>
+        <li>
+            <p>箱包鞋靴</p>
+            <img src="/static/images/index_141.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">流行男鞋</a>
+                <a href="#">时尚女鞋</a>
+                <a href="#">功能箱包</a>
+                <a href="#">潮流女包</a>
+            </div>
+        </li>
+        <li>
+            <p>母婴玩具</p>
+            <img src="/static/images/muying.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">童装童鞋</a>
+                <a href="#">玩具</a>
+                <a href="#">孕妇用品</a>
+                <a href="#">幼婴用品</a>
+            </div>Title
+        </li>
+        <li>
+            <p>食品保健</p>
+            <img src="/static/images/shipin.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">休闲零食</a>
+                <a href="#">鲜活肉类</a>
+                <a href="#">特产</a>
+                <a href="#">保健食品</a>
+            </div>
+        </li>
+        <li>
+            <p>家具百货</p>
+            <img src="/static/images/jiaju.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">厨卫用品</a>
+                <a href="#">居家日用</a>
+                <a href="#">生活电器</a>
+                <a href="#">家纺</a>
+            </div>
+        </li>
+        <li>
+            <p>运动户外</p>
+            <img src="/static/images/huwai.jpg" alt="">
+            <div class="listNav" >
+                <a href="#">户外装备</a>
+                <a href="#">运动用品</a>
+                <a href="#">运动鞋服</a>
+                <a href="#">其他</a>
+            </div>
+        </li>
+    </ul>
+    <div class="footerCenter">
+        <div class="Back">
+            <div class="FC">
+                <h2 class="photo1">用户帮助</h2>
+                <ul>
+                    <li><a href="#">玩转步淘商城</a></li>
+                    <li><a href="#">商城生活常见问题</a></li>
+                    <li><a href="#">网站的保障计划</a></li>
+                    <li><a href="#">本站意见建议</a></li>
+                </ul>
+            </div>
+            <div class="FC">
+                <h2 class="photo2">购物相关</h2>
+                <ul>
+                    <li><a href="#">网站购物向导</a></li>
+                    <li><a href="#">本站订单操作</a></li>
+                    <li><a href="#">汇款&转账</a></li>
+                    <li><a href="#">验收与签收</a></li>
+                </ul>
+            </div>
+            <div class="FC">
+                <h2 class="photo3">商务合作</h2>
+                <ul>
+                    <li><a href="#">本站商户入驻</a></li>
+                    <li><a href="#">本站商户登陆</a></li>
+                    <li><a href="#">本站合作案例</a></li>
+                    <li><a href="#">步淘友情衔接</a></li>
+                </ul>
+            </div>
+            <div class="FC">
+                <h2 class="photo4">关于步淘</h2>
+                <ul>
+                    <li><a href="#">关于生活商城</a></li>
+                    <li><a href="#">步淘网诚聘英才</a></li>
+                    <li><a href="#">联系步淘网</a></li>
+                    <li><a href="#">生活商城用户协议</a></li>
+                </ul>
+            </div>
+            <div class="FCLast">
+                <h2>客服热线<span>（免长途费）</span></h2>
+                <div class="photo5">
+                    <div class="qq_line">
+                        qq在线客服：
+                        <a href="#"><img src="/static/images/qq_qy.png" alt="" width="22" height="21"></a>
+                    </div>
+                </div>
+                <div class="time">(周一到周日：08:30-18:00)</div>
+            </div>
+        </div>
+    </div>
+    <div class="footerLink">
+        <div class="Back">
+            <ul>
+                <li><a href="#">关于步淘网</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">网站诚聘英才</a></li>
+                <li><a href="#">友情链接</a></li>
+                <li><a href="#">隐私条款</a></li>
+                <li><a href="#">网站地图</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerBottom">
+        <div class="Back">
+            <div class="copyright">Copyright @ 2010-2012 butao.com All Rights Reserved 版权所有  浙B2-20090126-17</div>
+            <div class="png">
+            <a href="#"><img src="/static/images/rzl.png" alt=""></a>
+            <a href="#"><img src="/static/images/zfb.png" alt=""></a>
+            <a href="#"><img src="/static/images/360green.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--左边固定导航-->
+<div class="leftNav">
+    <ul>
+        <li><a href="#" class="lN2"></a></li>
+        <li><a href="#" class="lN3"></a></li>
+        <li><a href="#" class="lN4"></a></li>
+        <li><a href="#" class="lN5"></a></li>
+        <li><a href="#" class="lN6"></a></li>
+        <li><a href="#" class="lN7"></a></li>
+        <li><a href="#" class="lN8"></a></li>
+    </ul>
+</div>
+
+
+<!--右边固定导航-->
+<div class="rightNav">
+    <div class="rightNavLeft">
+        <div class="tab">
+            <a href="#" class="tab_a1">
+                <div>您好！请登录或注册<span></span></div>
+                <i></i>
+                <span>我的</span>
+            </a>
+            <a href="#" class="tab_a2">
+                <div>我的消息<span></span></div>
+                <i></i>
+                <span>消息</span>
+            </a>
+            <a href="#" class="tab_a3">
+                <div>欢迎联系客服<span></span></div>
+                <i></i>
+                <span>客服</span>
+            </a>
+            <a href="#" class="tab_a4">
+                <i></i>
+                <span>购<br/>物<br/>车<br/></span>
+                <span class="count">0</span>
+            </a>
+        </div>
+    </div>
+    <div class="rightNavRight">
+        <div class="shopCar">
+            <h2>购物车</h2>
+            <ul>
+            </ul>
+            <div class="total">
+                <a href="../../templates/shopcar.html" target="_blank"><h3>查看全部 &lt;</h3></a>
+                <p>共<strong>3</strong>件商品，总计<span></span>元</p>
+                <div>马上结算<i>&gt;</i></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--回到顶部固定栏-->
+<ul class="qq">
+    <li>
+        <a href="#" class="a1"></a>
+    </li>
+    <li>
+        <a href="#" class="a2"></a>
+    </li>
+    <li>
+        <a href="#" class="a3"></a>
+    </li>
+    <li>
+        <a href="#" class="a4"></a>
+    </li>
+    <li>
+        <a href="#" class="a5">
+            <img src="/static/images/yingi.jpg" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="#" class="a6"></a>
+    </li>
+</ul>
+
+</body>
+</html>

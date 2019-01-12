@@ -1,0 +1,146 @@
+
+/*==============================内容部分=============================*/
+.bdw{
+    width: 100%;
+}
+.shop_menu{
+    width: 1000px;
+    height: 30px;
+    background: url(../images/shop_menu_bg.png) repeat-x left center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.shop_menu li{
+    float: left;
+    width: 330px;
+    text-align: center;
+    padding-top: 35px;
+    color: #555;
+    background-image: url(../images/shop_menu_li.png);
+    background-repeat: no-repeat;
+}
+.menu_01{
+    background-position: 152px 5px;
+}
+.menu_02{
+    background-position: 152px -55px;
+}
+.menu_03{
+    background-position: 152px -115px;
+}
+.shopCar_null{
+    text-align: center;
+    padding: 100px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+.shopCar_null span{
+    color: #d41f2b;
+}
+.go_buy{
+    display: inline-block;
+    width: 137px;
+    height: 52px;
+    background: url("../images/sift_buy_bg .png") no-repeat -92px -45px;
+    margin-top: 10px;
+}
+.shop_table{
+    display: none;
+    width: 998px;
+    /*border: 1px solid #e2dee2;*/
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.shop_table th{
+    border: 1px solid #e2dee2;
+    height: 20px;
+    line-height: 20px;
+    color: #5e5058;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #faf7f8;
+    font-weight: bold;
+}
+.shop_table td{
+    border: 1px solid #e2dee2;
+    padding: 10px 20px;
+    background-color: #FFF;
+    text-align: center;
+    width: 45px;
+}
+.shop_table td:last-child{
+    cursor: pointer;
+}
+.shop_table td img{
+    width: 90px;
+    height: 57px;
+}
+.shop_table .td0{
+    width: 10px;
+}
+.shop_table .td1{
+    border-right: 1px solid #ffffff;
+    width: 110px;
+}
+.shop_table .td2{
+    border-left: 1px solid #ffffff;
+    width: 349px;
+}
+.shop_table .td3{
+    width: 86px;
+}
+.info{
+    display: inline-block;
+    text-align: left;
+    line-height: 18px;
+}
+.info_R{
+    display: inline-block;
+    margin-left: 25px;
+    color: #d41f2b;;
+}
+
+tbody input[type=button]{
+    width: 14px;
+}
+tbody  .quantity{
+    width: 40px;
+    text-align: center;
+}
+.totalPrice{
+    display: none;
+    width: 996px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    border: 1px solid #e2dee2;
+    margin-top: -21px;;
+}
+.totalPrice span{
+    margin:0 5px 0 25px;
+}
+.totalPrice i{
+    color: #d41f2b;
+    font-style: normal;
+}
+.buy{
+    margin-top: 10px;
+    float: right;
+    width: 140px;
+    height: 39px;
+    background: url(../images/sh_buy_01.png) no-repeat;
+    text-align: center;
+}
+.shopDelete{
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 430px;
+}
+.shopDelete input:last-child{
+    margin-left: 10px;
+}
+.orange{
+    background-color: orange;
+}

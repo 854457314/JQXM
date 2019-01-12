@@ -1,5 +1,26 @@
 from django.shortcuts import render
 
-# Create your views here.
+from JQXM.models import swiper
+
+
 def index(request):
-    return render(request,'index.html',context={'name':'步淘生活'})
+    lunbo=swiper.objects.all()
+    return render(request, 'index.html',{'lunbo':lunbo})
+
+# def swiper(request):
+#     return render(request,'swiper.html',context={'swiper':swiper})
+
+def Login(request):
+    return render(request,'Login.html')
+
+def shopCar(request):
+    return render(request,'shopcar.html')
+
+def details(request):
+    return render(request,'details.html')
+
+def register(request):
+    return render(request,'register.html')
+
+def base(request):
+    return render(request,'public.html')
