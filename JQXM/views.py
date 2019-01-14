@@ -29,7 +29,7 @@ def register(request):
         user.email = request.POST.get('email')
         user.username = request.POST.get('username')
         user.password = request.POST.get('password')
-        user.passwords = request.POST.get('passwords')
+        # user.passwords = request.POST.get('passwords')
         user.save()
 
         response = redirect('JX:index')

@@ -9,12 +9,13 @@ class User(models.Model):
     email = models.CharField(max_length=20,unique=True)
     username = models.IntegerField()
     password = models.CharField(max_length=20)
-    phone = models.CharField(max_length=20,unique=True)
-    img = models.CharField(max_length=40)
+    passwords = models.IntegerField()
+    # phone = models.CharField(max_length=20,unique=True)
+    # img = models.CharField(max_length=40)
     # 等级
-    rank = models.IntegerField(default=1)
-    # 令牌
-    token = models.CharField(max_length=256)
+    # rank = models.IntegerField(default=1)
+    # 令牌s
+    # token = models.CharField(max_length=256)
 
     # class  Meta:
     #     de_table = 'JQXM_user'
