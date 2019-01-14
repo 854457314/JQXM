@@ -131,7 +131,7 @@ $(function(){
             console.log($.cookie("users"));
             alert("注册成功,请登录");
             if(alert){
-                location.href="../html/Login.html"
+                location.href="../index"
             }
         }else{
             alert("信息有误，注册失败")

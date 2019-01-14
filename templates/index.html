@@ -31,19 +31,26 @@
 <div class="header">
     <div class="Back">
         <ul>
+  {% if username %}
             <li><a href="#" class="collect">收藏步淘</a></li>
             <li class="line">线</li>
             <li>您好！欢迎来到步淘生活商城！</li>
-            <li><a href="../templates/Login.html" target="_blank">请登录</a></li>
+            <li><a href="{% url 'JX:Login' %}" target="_blank" methods = 'POST'>{{ username }}</a></li>
+            <li class="line">线</li>
+            <li><a href="{% url 'JX:register' %}" target="_blank">退出</a></li>
+
+  {% else %}
+            <li><a href="#" class="collect">收藏步淘</a></li>
+            <li class="line">线</li>
+            <li>您好！欢迎来到步淘生活商城！</li>
+            <li><a href="{% url 'JX:Login' %}" target="_blank" methods = 'POST'>请登录</a></li>
             <li class="line">线</li>
             <li><a href="{% url 'JX:register' %}" target="_blank">注册有礼</a></li>
-            <li class="line">线</li>
+
+  {% endif %}
             <li>
                 <dl>
-                    <dt>
-                        <a href="#">快捷登录</a>
-                        <b></b>
-                    </dt>
+
                 </dl>
             </li>
         </ul>

@@ -4,10 +4,18 @@ from django.shortcuts import render, redirect
 from JQXM.models import swiper, User
 
 
+# def index(request):
+#     username = request.COOKIES.get('username')
+#     return render(request,'index.html',context={'username':username})
+
 def index(request):
     username = request.COOKIES.get('username')
     lunbo=swiper.objects.all()
-    return render(request, 'index.html',{'lunbo':lunbo})
+    data={
+        'lunbo':lunbo,
+        'username':username
+    }
+    return render(request, 'index.html',data)
 
 # def swiper(request):
 #     return render(request,'swiper.html',context={'swiper':swiper})
@@ -22,23 +30,36 @@ def index(request):
 #     return render(request,'details.html')
 
 def register(request):
-    if request.method == 'GET':
+
+    if request.method == 'GET':  # 获取注册页面
+        print(request.method)
         return  render(request,'register.html')
-    elif request.method == 'POST':
-        user = User()
+    elif request.method == 'POST':  # 注册操作
+        print(request.method)
+        user =User()
         user.email = request.POST.get('email')
         user.username = request.POST.get('username')
         user.password = request.POST.get('password')
-        # user.passwords = request.POST.get('passwords')
+        user.passwords = request.POST.get('passwords')
+        print(user.username)
         user.save()
 
+        # 状态保持
         response = redirect('JX:index')
         response.set_cookie('username',user.username)
 
         return response
 
 
-def logout(request):
-    response = redirect('mt:index')
-    response.delete_cookie('username')
-    return response
+# def logout(request):
+#     response = redirect('JX:index')
+#     response.delete_cookie('username')
+#     return response
+
+
+def Login(request):
+    if request.method == 'GET':
+        return  render(request,'Login.html')
+    elif request.method == 'POST':
+        print(request.POST)
+        return render(request,'index.html')

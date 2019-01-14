@@ -7,9 +7,9 @@ class swiper(models. Model):
 
 class User(models.Model):
     email = models.CharField(max_length=20,unique=True)
-    username = models.IntegerField()
-    password = models.CharField(max_length=20)
-    passwords = models.IntegerField()
+    username = models.CharField(max_length=20)
+    password = models.CharField(max_length=256)
+    passwords = models.CharField(max_length=256)
     # phone = models.CharField(max_length=20,unique=True)
     # img = models.CharField(max_length=40)
     # 等级
