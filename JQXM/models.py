@@ -16,5 +16,5 @@ class User(models.Model):
     # 令牌
     token = models.CharField(max_length=256)
 
-    class  Meta:
-        de_table = 'JQXM_user'
+    # class  Meta:
+    #     de_table = 'JQXM_user'
