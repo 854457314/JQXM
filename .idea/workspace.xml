@@ -2,253 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8ff6ac-81d0-4a21-b392-916764ce346d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/91ddc453-a81b-4af3-bda8-857e06b41e5c.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Django/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JQXM/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JQXM/migrations/0002_auto_20190112_0646.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/JQXM.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/Login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/details.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/public.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/shopcar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/swiper.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/05_search_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/05_shoplogo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/111.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/12s.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/13981602589511.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925612371402.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925613025652.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925613215896.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925613624834.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925613861937.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925614024375.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925648733280.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925664629443.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925664879299.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816472105.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816494476.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816580304.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816767818.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816872539.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925816933085.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925817021892.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925843931077.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139925847448402.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139927308868227.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/13994510211572.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/13994510211572_index.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139945179618970.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139953114542156.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/139986228518250.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14038320325152.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14043712544021.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14162328473148.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14162332887167.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14162334941911.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14162336728056.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14162337883720.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14222666529329.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14260695678034.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274249753020.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274280338843.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274286304147.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274292391169.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274297701742.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274302997175.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14274321342919.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14637247811269.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14637261056813.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14638958191750.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14638978957063.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14639688288131.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14645986319640.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14645990914134.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14646647958718.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14646649438939.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14691690608051.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14698597943266.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14700363396848.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14709820565127.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14713267664893.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14713276332237.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14713278816775.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14713284542803.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14716623331748.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14716786533338.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14716796833362.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14718480261700.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14721946125345.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14722662109091.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14722705459123.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14725216468155.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14725234379716.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14725287677940.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14727131344307.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14727293639792.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14727932247755.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14727940192727.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14728883753287.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14728900972770.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14729778823595.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14729825816806.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14735815408559.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14735863588420.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14736504415908.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14738176144371.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14738180952666.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14745997928111.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/14746967851004.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/1_search.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/360green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/LAB.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/R_W.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/buy_64.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/buy_70.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_39.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_42.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_54.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_58.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_63.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/cfd_73.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/chaye.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/collect.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/collection.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/collection_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/core(1).php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/core.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/css_spirit.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/detail_h2_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/detail_h2_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/detail_h2_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/detail_h2_04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/detail_h2_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/fhsy1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/fhsy2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ft_h2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ft_li.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ftw_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gm.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/grey.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gw.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/h.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/hd_safe.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/hd_wap.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/hot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/hot_18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/huwai.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/iPhone.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/icon_top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_124.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_138.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_141.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_41.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_45.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_57.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_61.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_63.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_65.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_67.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_77.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/index_dev.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/jiafang.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/jiaju.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/jquery.lazyload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/kcart_04.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/login_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/login_btn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/login_pic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/meishi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/muying.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ntu.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/qd_1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/qi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/qq_qy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/quick_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/quick_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/quick_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/quick_04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/quick_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/reg_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/reg_pic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/rifu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/rzl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/seed-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/sh_buy_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shipin.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_btn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_btn_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_cart_current .png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_menu_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_menu_li.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/side_bar_h2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/sift_buy_bg .png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/song.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/star.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/tiai_49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/u1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/u2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/u3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/u4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/u5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/v.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/xie.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/yingi (1).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/yingi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/z_stat(1).php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/z_stat.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zfb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zheng.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_80.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_82.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_84.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_86.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_88.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zsa_92.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/details.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/info1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/public.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/shopcar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/swiper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/json/json.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/json/lunbo.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/json/title.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/json/xiangqing.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/Login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/details.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/public.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/shopcar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/swiper.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JQXM/migrations/0003_user.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/logout.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91ddc453-a81b-4af3-bda8-857e06b41e5c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/91ddc453-a81b-4af3-bda8-857e06b41e5c.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/JQXM/models.py" afterPath="$PROJECT_DIR$/JQXM/models.py" />
       <change beforePath="$PROJECT_DIR$/JQXM/urls.py" afterPath="$PROJECT_DIR$/JQXM/urls.py" />
       <change beforePath="$PROJECT_DIR$/JQXM/views.py" afterPath="$PROJECT_DIR$/JQXM/views.py" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -273,17 +35,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="JQXM@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="JQXM@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="JQXM@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="JQXM: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -292,12 +43,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="125" column="15" lean-forward="false" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
+            <state relative-caret-position="684">
+              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/logout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JQXM/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JQXM/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JQXM/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -343,16 +138,18 @@
         <option value="$PROJECT_DIR$/static/css/public.css" />
         <option value="$PROJECT_DIR$/static/json/index.html" />
         <option value="$PROJECT_DIR$/static/js/public.js" />
-        <option value="$PROJECT_DIR$/JQXM/urls.py" />
         <option value="$PROJECT_DIR$/templates/swiper.html" />
-        <option value="$PROJECT_DIR$/JQXM/views.py" />
-        <option value="$PROJECT_DIR$/JQXM/models.py" />
         <option value="$PROJECT_DIR$/static/css/swiper.css" />
         <option value="$PROJECT_DIR$/static/js/swiper.js" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/Django/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/logout.html" />
+        <option value="$PROJECT_DIR$/JQXM/urls.py" />
+        <option value="$PROJECT_DIR$/JQXM/views.py" />
+        <option value="$PROJECT_DIR$/JQXM/models.py" />
       </list>
     </option>
   </component>
@@ -389,6 +186,11 @@
           <expand>
             <path>
               <item name="Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -491,12 +293,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23665339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71769387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2438247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@Django" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38767394" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -506,6 +306,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@Django" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35387674" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -515,42 +317,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/images/139925664629443.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/139925648733280.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/json/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3204">
-          <caret line="178" column="36" lean-forward="true" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/info1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-381">
           <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="506" column="27" lean-forward="false" selection-start-line="506" selection-start-column="27" selection-end-line="506" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,23 +385,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/swiper.jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/swiper.jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/static/css/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="14" column="14258" lean-forward="false" selection-start-line="14" selection-start-column="14258" selection-end-line="14" selection-end-column="14258" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,15 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,39 +517,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JQXM/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JQXM/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JQXM/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JQXM/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,10 +561,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/cf73fcd3/91ddc453-a81b-4af3-bda8-857e06b41e5c/JQXM.auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/cf73fcd3/91ddc453-a81b-4af3-bda8-857e06b41e5c/JQXM.JQXM_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQXM/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="125" column="15" lean-forward="false" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQXM/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQXM/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>

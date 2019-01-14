@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>步淘商城欢迎你</title>
     <link rel="stylesheet" href="{% static 'css/public.css' %}">
     <link rel="stylesheet" href="{% static 'css/swiper.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
@@ -36,7 +36,7 @@
             <li>您好！欢迎来到步淘生活商城！</li>
             <li><a href="../templates/Login.html" target="_blank">请登录</a></li>
             <li class="line">线</li>
-            <li><a href="../templates/register.html" target="_blank">注册有礼</a></li>
+            <li><a href="{% url 'JX:register' %}" target="_blank">注册有礼</a></li>
             <li class="line">线</li>
             <li>
                 <dl>
