@@ -10,12 +10,25 @@ class User(models.Model):
     username = models.CharField(max_length=20)
     password = models.CharField(max_length=256)
     passwords = models.CharField(max_length=256)
-    # phone = models.CharField(max_length=20,unique=True)
-    # img = models.CharField(max_length=40)
-    # 等级
-    # rank = models.IntegerField(default=1)
-    # 令牌s
-    # token = models.CharField(max_length=256)
 
-    # class  Meta:
-    #     de_table = 'JQXM_user'
+class  Details(models.Model):
+    hh= models.CharField(max_length=256)
+    price = models.IntegerField()
+    price2 = models.IntegerField()
+    discount = models.CharField(max_length=40)
+    img = models.CharField(max_length=256)
+
+
+
+class  Shop(models.Model):
+    name = models.CharField(max_length=20)
+
+class  Shopcar(models.Model):
+    user = models.ForeignKey(User)
+    goods = models.ForeignKey(Shop)
+    number = models.IntegerField()
+    isselect = models.BooleanField(default=True)
+
+    class Meta:
+        db_table = 'JX_shopcar'
+

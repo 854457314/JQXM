@@ -189,7 +189,7 @@ $(function () {
 
    //=====================商品信息图片JS代码=======================
     $.get({
-        "url": "../json/xiangqing.json",
+        "url": "../json/details.json",
         "success": function (json) {
             $.each(json[a], function (index, data) {
                 $(".shopInfoTop").find("h2").html(data.h2);

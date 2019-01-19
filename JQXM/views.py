@@ -1,7 +1,7 @@
 from django.http import HttpResponse, response
 from django.shortcuts import render, redirect
 
-from JQXM.models import swiper, User
+from JQXM.models import swiper, User, Details, Shop
 
 
 # def index(request):
@@ -63,3 +63,29 @@ def Login(request):
     elif request.method == 'POST':
         print(request.POST)
         return render(request,'index.html')
+
+
+def details(request,id1):
+    details = Details.objects.get(pk=id1)
+    return render(request,'details.html',{'detail':details})
+
+
+def logout(request):
+    response = redirect('JX:index')
+    response.delete_cookie('username')
+    return response
+
+def shop(request):
+    shop = Shop.objects.all()
+    return  render(request,'shop.html')
+
+
+def shopCar(request):
+    token = request.session.get('token')
+    print('添加购物车')
+
+
+    if token:
+        pass
+    else:
+        return redirect('JX:Login')

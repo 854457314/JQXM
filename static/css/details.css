@@ -120,16 +120,22 @@
     height: 50px;
     background: url("../images/gm.jpg") no-repeat;
     border: none;
-    margin-top: 18px;
+    /*margin-top: 10px;*/
+    /*vertical-align：text-top;*/
+    vertical-align:middle;
 }
 .shopBuy a{
     display: inline-block;
     width: 129px;
     height: 50px;
     line-height: 50px;
+    vertical-align:middle;
     margin-left: 6px;
-    background: url("../images/gw.jpg") no-repeat;
+    background: url("../images/gw.jpg") no-repeat ;
 }
+
+
+
 .date{
     width: 100%;
     height: 32px;

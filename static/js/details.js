@@ -37,7 +37,7 @@ $(function(){
 
     //====================抢购倒计时JS代码===============================
     var date=$(".date");
-    var date1=new Date("2016-10-15 10:10:10");
+    var date1=new Date("2019-01-22 00:00:00");
     var now=new Date();
     var timeInterval= date1.getTime()-now.getTime();
     var timeSec=timeInterval/1000;
@@ -52,7 +52,7 @@ $(function(){
 
     //=====================商品信息图片JS代码=======================
     $.get({
-        "url": "../json/xiangqing.json",
+        "url": "../json/details.json",
         "success": function (json) {
             $.each(json[a], function (index, data) {
                 $(".shopInfoTop").find("h2").html(data.h2);
@@ -101,7 +101,7 @@ $(function(){
         $.each(aGood,function(index,obj){
             var liNode=$("<li/>");
             var imgNode=$("<img>");
-            liNode.appendTo($(".shopCar").find("ul"));
+            liNode.appendTo($(".shopcar").find("ul"));
             imgNode.attr("src",obj.img).appendTo(liNode);
             $("<p><span>"+obj.info+"</span>￥ "+obj.price+" X "+obj.num+"</p>").appendTo(liNode);
             $(".rightNavRight").css("background","none");
